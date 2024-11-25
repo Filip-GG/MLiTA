@@ -1,3 +1,3 @@
 # Функция конвертации 10-ных чисел в 16-ричную систему исчислений
 def NUMto16(N: int):
-    return hex(N)[2:].upper()
+    return hex(abs(N))[2:].upper()
